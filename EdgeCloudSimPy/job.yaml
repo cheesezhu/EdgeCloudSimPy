@@ -1,0 +1,12 @@
+num_jobs: 200
+lambda_scalar: 3
+
+duration_scalar: 4.0
+DAG_config:
+  total_num: 20
+  max_od: 3
+  alpha: 1.0
+  beta: 1.0
+  ccr: 0.4
+  bt: 0.2
+  bt_std: 0.1

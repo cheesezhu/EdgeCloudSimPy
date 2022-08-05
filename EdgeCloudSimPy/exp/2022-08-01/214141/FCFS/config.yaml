@@ -1,0 +1,39 @@
+num_jobs: 200
+lambda_scalar: 3
+duration_scalar: 4.0
+DAG_config:
+  total_num: 20
+  max_od: 3
+  alpha: 1.0
+  beta: 1.0
+  ccr: 0.4
+  bt: 0.2
+  bt_std: 0.1
+edge_num: 8
+rho: 10
+sim_time: 300
+mobile:
+  type: mobile
+  machine_num: 1
+  machine_config:
+    capacity: 1000.0
+  dataioport_config:
+    limited: false
+edge:
+  type: edge
+  machine_num: 1
+  machine_config:
+    capacity: 5000.0
+  dataioport_config:
+    limited: false
+cloud:
+  type: cloud
+  machine_num: 4
+  machine_config:
+    capacity: 10000.0
+  dataioport_config:
+    limited: false
+connection_config:
+  tr_me: 7.81
+  tr_ee: 17.77
+  tr_ce: 80

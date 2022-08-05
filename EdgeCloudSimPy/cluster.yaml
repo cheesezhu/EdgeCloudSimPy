@@ -1,0 +1,31 @@
+edge_num: 8
+rho: 10
+sim_time: 300
+mobile:
+  type: 'mobile'
+  machine_num: 1
+  machine_config:
+    capacity: 1e3
+  dataioport_config:
+    limited: False
+
+edge:
+  type: 'edge'
+  machine_num: 1
+  machine_config:
+    capacity: 5e3
+  dataioport_config:
+    limited: False
+
+cloud:
+  type: 'cloud'
+  machine_num: 4
+  machine_config:
+    capacity: 1e4
+  dataioport_config:
+    limited: False
+
+connection_config:
+  tr_me: 7.81
+  tr_ee: 17.77
+  tr_ce: 80
